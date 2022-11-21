@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container-navbar {
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000000000000;
+  background: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation > li > a {
+  color: #e6bc3f;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation > li > a:hover {
+  color: #ddd;
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.active:hover {
+  color: white !important;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  padding: 290px;
+  background: url(bahan/Frame\ 5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* Product */
+.produk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #eee;
+}
+
+.produk h1 {
+  font-size: 25px;
+  text-align: center; 
+  margin-top: 10%;
+  border-radius: 50px;
+  background-color: #e6bc3f;
+  background-size: contain;
+  width: 380px;
+  /* left: auto; */
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  background-color: #e6bc3f;
+  padding: 20px 0;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.harga {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #e6bc3f;
+  background-color: #eee;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.card button:hover {
+  color: #fff;
+  background-color: #e6bc3f;
+  transition: all 0.3s ease-in-out;
+}
+
+/* makanan manis */
+
+.product2 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  background-color: #e6bc3f;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.harga {
+  color: grey;
+  font-size: 22px;
+}
+
+.card2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #e6bc3f;
+  background-color: #eee;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.card2 button:hover {
+  color: #fff;
+  background-color: #e6bc3f;
+  transition: all 0.3s ease-in-out;
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 50px;
+}
+
+.swiper-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-content button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #e6bc3f;
+  background-color: #eee;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.swiper-content button:hover {
+  color: #fff;
+  background-color: #e6bc3f;
+  transition: all 0.3s ease-in-out;
+}
+
+/* makanan rare */
+
+.makanan-rare {
+  margin-top: 5%;
+}
+
+/* layanan */
+
+.layanan2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #e6bc3f;
+}
+
+.layanan2 h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  border-radius: 50px;
+  background-color: #fff;
+  background-size: contain;
+  width: 380px;
+  /* left: auto; */
+}
+
+.apapapa {
+  background-color: #e6bc3f;
+  margin-top: 5%;
+  border-radius: 50px;
+}
+
+.layanan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  color: #fff;
+}
+
+.unggulan img {
+  width: 300px;
+  height: 300px;
+}
+
+/* review */
+
+.ulasan {
+  margin-top: 5%;
+
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-review {
+  background-color: #e6bc3f;
+  color: #fff;
+  border-radius: 25px;
+  width: 525px;
+  height: 215px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content-review {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+
+/* foooter */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: 10%;
+  color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+footer img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/* Hamburger Menu Navbar */
+
+
+
+
+/* alhamdulillah beres tinggal media querry */
+
+@media  screen and (max-width: 700px) {
+
+  .container-navbar {
+    
+  }
+
+  .jumbotron {
+    font-size: 10px;
+    padding: 100px;
+  }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .product2 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .card {
+      max-width: 200px;
+      max-height: 400px;
+    }
+
+    .card2 {
+      max-width: 200px;
+      max-height: 400px;
+    }
+
+    .unggulan img  {
+      height: 100px;
+      width: 100px;
+
+    }
+
+    .layanan2 h1 {
+      font-size: 20px;
+    }
+}
+
