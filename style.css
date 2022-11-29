@@ -367,6 +367,143 @@ footer img {
 /* Hamburger Menu Navbar */
 
 
+/* media querry */
+
+@media  screen and (max-width: 1052px) {
+
+  .container-navbar {
+    width: 100vw;
+  }
+
+  .navigation {
+    justify-content: space-around;
+  }
+
+  .navigation {
+    padding: 8px 8px; 
+  }
+
+  .navigation li a {
+    font-size: 12px;
+  }
+
+  .jumbotron {
+    font-size: 10px;
+    padding: 100px;
+  }
+
+  .produk h1 {
+      font-size: 20px;
+      width: 300px;
+  }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .product2 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    /* card 1 */
+
+    .card {
+      width: 200px;
+      height: 300px;
+    }
+
+    .card img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .card h1 {
+      font-size: 18px;
+      margin: 0px 0;
+    }
+
+    .card .harga {
+      display: none;
+    }
+
+    /* card 2 */
+
+    .card2 {
+      width: 200px;
+      height: 300px;
+    }
+
+    .card2 img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .card2 h1 {
+      margin: 0px 0;
+      font-size: 18px;
+    }
+
+    .card2 .harga {
+      display: none;
+    }
+
+
+    /* unggulan (layanan) */
+
+    .unggulan img  {
+      height: 100px;
+      width: 100px;
+    }
+
+    .unggulan h1 {
+      font-size: 15px;
+    }
+
+    .layanan2 h1 {
+      font-size: 20px;
+      margin:  5%;
+      width: 80%;
+    }
+
+    .apapapa {
+      border-radius: 20px;
+    }
+
+
+    /* swiper */
+
+
+    .swiper-content img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .swiper-content h1 {
+      font-size: 12px;
+      margin: 0;
+    }
+
+    .swiper-content button {
+      width: 50%;
+      font-size: 15px;
+    }
+
+    /* review */
+
+    .container-review {
+      width: 400px;
+      height: 200px;
+    }
+
+    .content-review p {
+        font-size: 15px;
+    }
+}
+
+
 
 
 /* alhamdulillah beres tinggal media querry */
