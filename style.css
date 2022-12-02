@@ -346,6 +346,11 @@ body {
 
 /* foooter */
 
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   text-align: center;
   padding: 25px;
@@ -360,6 +365,13 @@ footer {
 footer img {
   width: 24px;
   height: 24px;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
 
 
