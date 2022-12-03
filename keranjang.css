@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+body {
+  text-align: center;
+  font-family: quicksand, sans-serif;
+}
+
+
+/* produk */
+
+.produk {
+    padding: 50px 0px 0px 100px;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #fff;
+  }
+  
+  .harga {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #e6bc3f;
+    background-color: #eee;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .card2 button:hover {
+    color: #fff;
+    background-color: #e6bc3f;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .content-card img {
+    width: 50px;
+    height: 200px;
+  }
