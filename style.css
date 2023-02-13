@@ -245,6 +245,7 @@ body {
 }
 
 .swiper-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -541,6 +542,13 @@ footer img {
   .jumbotron {
     font-size: 10px;
     padding: 100px;
+  }
+
+  .produk1 h1 {
+    font-size: 20px;
+    width: 300px;
+    color: #e6bc3f;
+    background-color: black;
   }
 
   .produk h1 {
