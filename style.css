@@ -113,7 +113,7 @@ body {
 .produk h1 {
   font-size: 25px;
   text-align: center; 
-  margin-top: 10%;
+  margin-top: 5%;
   border-radius: 50px;
   background-color: #e6bc3f;
   background-size: contain;
@@ -124,7 +124,7 @@ body {
 .product {
   display: flex;
   flex-direction: row;
-  background-color: #e6bc3f;
+  background-color: #fff;
   padding: 20px 0;
   border-radius: 50px;
   overflow: hidden;
@@ -171,7 +171,7 @@ body {
   flex-direction: row;
   padding: 20px 0;
   background-color: #e6bc3f;
-  border-radius: 50px;
+  border-radius: 30px;
   overflow: hidden;
 }
 
